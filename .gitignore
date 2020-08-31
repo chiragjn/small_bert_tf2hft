@@ -1,0 +1,4 @@
+.ipynb_checkpoints/
+*.py[cod]
+small_bert_checkpoints/
+hf_models/
