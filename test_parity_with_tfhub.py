@@ -54,13 +54,16 @@ class TFHubSmallBERT(object):
 
 
 def test(hub_handle, path):
+    print('=' * 120)
+    print(hub_handle, path)
     text_a = ['well read students', 'this is a model compression test']
     text_b = ['learn better', 'all okay?']
     msl = json.load(open(path + '/' + 'config.json'))['max_position_embeddings']
-    hub_model = TFHubSmallBERT(f'https://tfhub.dev/google/small_bert/{hub_handle}/1', training=False)
+    hub_model = TFHubSmallBERT(f'https://tfhub.dev/google/small_bert/{hub_handle}/1', training=False, max_seq_length=msl)
     tfiids, tfim, tfsids, tfso, tfpo = hub_model.get_outputs(text_a, text_b)
     tokenizer = AutoTokenizer.from_pretrained(path)
     model = AutoModel.from_pretrained(path)
+    print(model)
     hf_inputs = tokenizer(
         text=text_a,
         text_pair=text_b,
@@ -69,6 +72,7 @@ def test(hub_handle, path):
         padding='max_length',
         truncation=False,
     )
+
     model.eval()
     with torch.no_grad():
         to = model(**hf_inputs)
@@ -93,9 +97,9 @@ if __name__ == '__main__':
     for hf_model in glob.glob('hf_models/small_*'):
         try:
             hub_handle = hf_model.split('hf_models/small_', 1)[-1]
-            print('Testing', hub_handle, 'with', hf_model, file=f)
+            print('Testing', hub_handle, 'with', hf_model, file=f, flush=True)
             test(hub_handle, hf_model)
-            print('OK', file=f)
+            print('OK', file=f, flush=True)
         except Exception as e:
-            print(e, file=f)
+            print(e, file=f, flush=True)
     f.close()
