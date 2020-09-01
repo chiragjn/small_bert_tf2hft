@@ -69,7 +69,7 @@ def test(hub_handle, path):
         padding='max_length',
         truncation=False,
     )
-
+    model.eval()
     with torch.no_grad():
         to = model(**hf_inputs)
         
