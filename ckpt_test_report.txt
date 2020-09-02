@@ -1,0 +1,48 @@
+Testing small_bert/bert_uncased_L-8_H-768_A-12 with small_bert_checkpoints/uncased_L-8_H-768_A-12
+6.343616
+Testing small_bert/bert_uncased_L-2_H-128_A-2 with small_bert_checkpoints/uncased_L-2_H-128_A-2
+OK
+Testing small_bert/bert_uncased_L-12_H-128_A-2 with small_bert_checkpoints/uncased_L-12_H-128_A-2
+OK
+Testing small_bert/bert_uncased_L-4_H-768_A-12 with small_bert_checkpoints/uncased_L-4_H-768_A-12
+2.3570232
+Testing small_bert/bert_uncased_L-8_H-512_A-8 with small_bert_checkpoints/uncased_L-8_H-512_A-8
+OK
+Testing small_bert/bert_uncased_L-6_H-128_A-2 with small_bert_checkpoints/uncased_L-6_H-128_A-2
+OK
+Testing small_bert/bert_uncased_L-12_H-256_A-4 with small_bert_checkpoints/uncased_L-12_H-256_A-4
+OK
+Testing small_bert/bert_uncased_L-6_H-768_A-12 with small_bert_checkpoints/uncased_L-6_H-768_A-12
+1.358148
+Testing small_bert/bert_uncased_L-12_H-512_A-8 with small_bert_checkpoints/uncased_L-12_H-512_A-8
+OK
+Testing small_bert/bert_uncased_L-6_H-256_A-4 with small_bert_checkpoints/uncased_L-6_H-256_A-4
+OK
+Testing small_bert/bert_uncased_L-8_H-128_A-2 with small_bert_checkpoints/uncased_L-8_H-128_A-2
+OK
+Testing small_bert/bert_uncased_L-6_H-512_A-8 with small_bert_checkpoints/uncased_L-6_H-512_A-8
+OK
+Testing small_bert/bert_uncased_L-10_H-128_A-2 with small_bert_checkpoints/uncased_L-10_H-128_A-2
+OK
+Testing small_bert/bert_uncased_L-4_H-512_A-8 with small_bert_checkpoints/uncased_L-4_H-512_A-8
+OK
+Testing small_bert/bert_uncased_L-10_H-512_A-8 with small_bert_checkpoints/uncased_L-10_H-512_A-8
+OK
+Testing small_bert/bert_uncased_L-10_H-256_A-4 with small_bert_checkpoints/uncased_L-10_H-256_A-4
+OK
+Testing small_bert/bert_uncased_L-8_H-256_A-4 with small_bert_checkpoints/uncased_L-8_H-256_A-4
+OK
+Testing small_bert/bert_uncased_L-12_H-768_A-12 with small_bert_checkpoints/uncased_L-12_H-768_A-12
+6.4170265
+Testing small_bert/bert_uncased_L-2_H-768_A-12 with small_bert_checkpoints/uncased_L-2_H-768_A-12
+2.6249537
+Testing small_bert/bert_uncased_L-2_H-256_A-4 with small_bert_checkpoints/uncased_L-2_H-256_A-4
+OK
+Testing small_bert/bert_uncased_L-4_H-128_A-2 with small_bert_checkpoints/uncased_L-4_H-128_A-2
+OK
+Testing small_bert/bert_uncased_L-4_H-256_A-4 with small_bert_checkpoints/uncased_L-4_H-256_A-4
+OK
+Testing small_bert/bert_uncased_L-10_H-768_A-12 with small_bert_checkpoints/uncased_L-10_H-768_A-12
+9.500095
+Testing small_bert/bert_uncased_L-2_H-512_A-8 with small_bert_checkpoints/uncased_L-2_H-512_A-8
+OK
