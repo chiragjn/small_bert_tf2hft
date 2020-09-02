@@ -11,12 +11,15 @@ Conversion was performed automatically using `transformers-cli convert` as expla
 
 This model is also available on tfhub at `https://tfhub.dev/google/small_bert/{hub_handle}/1`
 
-A small test was performed to check if converted model and the version at TFHub generate similar embeddings.  
+Caution: The tfhub version does not generate the same output as the released checkpoint or the converted model.
+
+Released tf checkpoint and this converted model generate similar embeddings.  
+
 https://github.com/chiragjn/small_bert_tf2hft/
 """
 
 def main():
-    for model_dir in glob.glob('hf_models/small_bert_*'):
+    for model_dir in glob.glob('hf_models/small_bert_uncased_L-*_H-768_A-12'):
         print(model_dir)
         model_name = model_dir.split('/')[-1]
         hub_handle = model_name.split('small_', 1)[-1]

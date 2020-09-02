@@ -18,5 +18,3 @@ for BERT_BASE_DIR in uncased*/ ; do
     python ../pt2tf.py "${BERT_BASE_DIR}"
 done
 
-cd ../
-python generate_readmes.py
