@@ -5,7 +5,7 @@ I didn't realise this until later, so just consider this repo as exercise in con
 ---
 Quick and dirty scripts to convert [released TF checkpoints](https://github.com/google-research/bert/blob/8028c0459485299fa1ae6692b2300922a3fa2bad/README.md) of 24 smaller BERT models (English only, uncased, trained with WordPiece masking) referenced in [Well-Read Students Learn Better: On the Importance of Pre-training Compact Models](https://arxiv.org/abs/1908.08962) to huggingface/transformers format.
 
-All converted models are available at https://huggingface.co/chiragjn
+All converted models were previously available (deleted on Dec 30, 2020) at https://huggingface.co/chiragjn
 
 ---
 
